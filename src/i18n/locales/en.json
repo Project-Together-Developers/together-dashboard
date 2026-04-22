@@ -1,0 +1,62 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "search": "Search...",
+    "noData": "No data available",
+    "total": "Total",
+    "actions": "Actions"
+  },
+  "auth": {
+    "login": "Login",
+    "logout": "Logout",
+    "email": "Email",
+    "password": "Password",
+    "signIn": "Sign In",
+    "welcomeBack": "Welcome back"
+  },
+  "nav": {
+    "events": "Events",
+    "users": "Users",
+    "reviews": "Reviews",
+    "analytics": "Analytics",
+    "settings": "Settings"
+  },
+  "events": {
+    "title": "Events",
+    "createEvent": "Create Event",
+    "activity": "Activity",
+    "location": "Location",
+    "date": "Date",
+    "participants": "Participants",
+    "status": "Status"
+  },
+  "users": {
+    "title": "Users",
+    "name": "Name",
+    "phone": "Phone",
+    "registeredAt": "Registered",
+    "status": "Status",
+    "active": "Active",
+    "blocked": "Blocked"
+  },
+  "reviews": {
+    "title": "Reviews",
+    "author": "Author",
+    "rating": "Rating",
+    "comment": "Comment",
+    "createdAt": "Date"
+  },
+  "analytics": {
+    "title": "Analytics",
+    "totalUsers": "Total Users",
+    "totalEvents": "Total Events",
+    "activeEvents": "Active Events",
+    "newUsersThisMonth": "New Users (30d)"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "common": {
+    "loading": "Yuklanmoqda...",
+    "error": "Xatolik yuz berdi",
+    "save": "Saqlash",
+    "cancel": "Bekor qilish",
+    "delete": "O'chirish",
+    "edit": "Tahrirlash",
+    "create": "Yaratish",
+    "search": "Qidirish...",
+    "noData": "Ma'lumot yo'q",
+    "total": "Jami",
+    "actions": "Amallar"
+  },
+  "auth": {
+    "login": "Kirish",
+    "logout": "Chiqish",
+    "email": "Email",
+    "password": "Parol",
+    "signIn": "Kirish",
+    "welcomeBack": "Xush kelibsiz"
+  },
+  "nav": {
+    "events": "Tadbirlar",
+    "users": "Foydalanuvchilar",
+    "reviews": "Sharhlar",
+    "analytics": "Tahlil",
+    "settings": "Sozlamalar"
+  },
+  "events": {
+    "title": "Tadbirlar",
+    "createEvent": "Tadbir yaratish",
+    "activity": "Faoliyat",
+    "location": "Joy",
+    "date": "Sana",
+    "participants": "Ishtirokchilar",
+    "status": "Holat"
+  },
+  "users": {
+    "title": "Foydalanuvchilar",
+    "name": "Ism",
+    "phone": "Telefon",
+    "registeredAt": "Ro'yxatdan o'tgan",
+    "status": "Holat",
+    "active": "Faol",
+    "blocked": "Bloklangan"
+  },
+  "reviews": {
+    "title": "Sharhlar",
+    "author": "Muallif",
+    "rating": "Reyting",
+    "comment": "Izoh",
+    "createdAt": "Sana"
+  },
+  "analytics": {
+    "title": "Tahlil",
+    "totalUsers": "Jami foydalanuvchilar",
+    "totalEvents": "Jami tadbirlar",
+    "activeEvents": "Faol tadbirlar",
+    "newUsersThisMonth": "Yangi foydalanuvchilar (30k)"
+  }
+}

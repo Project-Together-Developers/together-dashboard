@@ -1,0 +1,62 @@
+{
+  "common": {
+    "loading": "Загрузка...",
+    "error": "Что-то пошло не так",
+    "save": "Сохранить",
+    "cancel": "Отмена",
+    "delete": "Удалить",
+    "edit": "Редактировать",
+    "create": "Создать",
+    "search": "Поиск...",
+    "noData": "Нет данных",
+    "total": "Всего",
+    "actions": "Действия"
+  },
+  "auth": {
+    "login": "Вход",
+    "logout": "Выйти",
+    "email": "Email",
+    "password": "Пароль",
+    "signIn": "Войти",
+    "welcomeBack": "С возвращением"
+  },
+  "nav": {
+    "events": "События",
+    "users": "Пользователи",
+    "reviews": "Отзывы",
+    "analytics": "Аналитика",
+    "settings": "Настройки"
+  },
+  "events": {
+    "title": "События",
+    "createEvent": "Создать событие",
+    "activity": "Активность",
+    "location": "Место",
+    "date": "Дата",
+    "participants": "Участники",
+    "status": "Статус"
+  },
+  "users": {
+    "title": "Пользователи",
+    "name": "Имя",
+    "phone": "Телефон",
+    "registeredAt": "Зарегистрирован",
+    "status": "Статус",
+    "active": "Активен",
+    "blocked": "Заблокирован"
+  },
+  "reviews": {
+    "title": "Отзывы",
+    "author": "Автор",
+    "rating": "Рейтинг",
+    "comment": "Комментарий",
+    "createdAt": "Дата"
+  },
+  "analytics": {
+    "title": "Аналитика",
+    "totalUsers": "Всего пользователей",
+    "totalEvents": "Всего событий",
+    "activeEvents": "Активные события",
+    "newUsersThisMonth": "Новые пользователи (30д)"
+  }
+}
