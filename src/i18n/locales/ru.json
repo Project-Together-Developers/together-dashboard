@@ -18,7 +18,9 @@
     "email": "Email",
     "password": "Пароль",
     "signIn": "Войти",
-    "welcomeBack": "С возвращением"
+    "welcomeBack": "С возвращением",
+    "invalidCredentials": "Неверный email или пароль",
+    "loginFailed": "Ошибка входа. Попробуйте ещё раз."
   },
   "nav": {
     "events": "События",

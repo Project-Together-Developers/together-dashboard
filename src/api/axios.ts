@@ -1,7 +1,7 @@
 import axios, { AxiosInstance, InternalAxiosRequestConfig } from 'axios';
 import { useAuthStore } from '../store/auth';
 
-const API_URL = import.meta.env.VITE_API_URL ?? 'http://localhost:3000/api/v1';
+const API_URL = import.meta.env.VITE_API_URL || '/api/v1';
 
 export const api: AxiosInstance = axios.create({
   baseURL: API_URL,
@@ -45,7 +45,7 @@ api.interceptors.response.use(
       const { refreshToken } = useAuthStore.getState();
       if (!refreshToken) throw new Error('No refresh token');
 
-      const { data } = await axios.post(`${API_URL}/auth/refresh`, { refreshToken });
+      const { data } = await axios.post(`${API_URL}/auth/refresh`, { refreshToken }, { baseURL: '' });
       const { accessToken, refreshToken: newRefresh } = data.data;
       useAuthStore.getState().setTokens(accessToken, newRefresh);
       api.defaults.headers.common.Authorization = `Bearer ${accessToken}`;

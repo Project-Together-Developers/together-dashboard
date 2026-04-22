@@ -18,7 +18,9 @@
     "email": "Email",
     "password": "Parol",
     "signIn": "Kirish",
-    "welcomeBack": "Xush kelibsiz"
+    "welcomeBack": "Xush kelibsiz",
+    "invalidCredentials": "Noto'g'ri email yoki parol",
+    "loginFailed": "Kirish xatosi. Qayta urinib ko'ring."
   },
   "nav": {
     "events": "Tadbirlar",

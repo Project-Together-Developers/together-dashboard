@@ -18,7 +18,9 @@
     "email": "Email",
     "password": "Password",
     "signIn": "Sign In",
-    "welcomeBack": "Welcome back"
+    "welcomeBack": "Welcome back",
+    "invalidCredentials": "Invalid email or password",
+    "loginFailed": "Login failed. Please try again."
   },
   "nav": {
     "events": "Events",

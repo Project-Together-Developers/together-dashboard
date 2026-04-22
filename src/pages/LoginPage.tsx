@@ -5,25 +5,27 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { useAuthStore } from '@/store/auth';
+import { adminLogin } from '@/api/auth';
+import { AuthErrorCode } from '@/enums/auth-error-codes';
 
 export default function LoginPage() {
   const { t } = useTranslation();
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState('');
   const login = useAuthStore((s) => s.login);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    setError('');
     setLoading(true);
     try {
-      // Placeholder: wire up real auth API
-      await new Promise((r) => setTimeout(r, 800));
-      login(
-        { id: '1', email, name: 'Admin', role: 'admin' },
-        'mock-access-token',
-        'mock-refresh-token',
-      );
+      const { user, accessToken, refreshToken } = await adminLogin(email, password);
+      login(user, accessToken, refreshToken);
+    } catch (err) {
+      const axiosErr = err as { response?: { data?: { error?: string } } };
+      setError(axiosErr?.response?.data?.error ?? t(AuthErrorCode.LOGIN_FAILED));
     } finally {
       setLoading(false);
     }
@@ -61,6 +63,9 @@ export default function LoginPage() {
                 required
               />
             </div>
+            {error && (
+              <p className="text-sm text-destructive">{error}</p>
+            )}
             <Button type="submit" className="w-full" disabled={loading}>
               {loading ? t('common.loading') : t('auth.signIn')}
             </Button>
