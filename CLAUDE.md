@@ -5,9 +5,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ## Commands
 
 ```bash
-pnpm dev        # Vite dev server on port 8001, proxies /api → http://localhost:8000
-pnpm build      # tsc && vite build
-pnpm lint       # ESLint, 0 warnings allowed
+pnpm dev  
+pnpm build      
+pnpm lint       
 ```
 
 ## Rules
