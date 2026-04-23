@@ -1,22 +1,6 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
-
-export interface AdminUser {
-  id: string;
-  email: string;
-  name: string;
-  role: 'admin' | 'moderator';
-}
-
-interface AuthState {
-  user: AdminUser | null;
-  accessToken: string | null;
-  refreshToken: string | null;
-  isAuthenticated: boolean;
-  login: (user: AdminUser, accessToken: string, refreshToken: string) => void;
-  logout: () => void;
-  setTokens: (accessToken: string, refreshToken: string) => void;
-}
+import { AuthState } from '../utils/interface/auth';
 
 export const useAuthStore = create<AuthState>()(
   persist(

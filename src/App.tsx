@@ -1,17 +1,13 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { useAuthStore } from './store/auth';
-import DashboardLayout from './components/layout/DashboardLayout';
-import LoginPage from './pages/LoginPage';
-import EventsPage from './pages/EventsPage';
-import UsersPage from './pages/UsersPage';
-import ReviewsPage from './pages/ReviewsPage';
-import AnalyticsPage from './pages/AnalyticsPage';
-
-function ProtectedRoute({ children }: { children: React.ReactNode }) {
-  const isAuthenticated = useAuthStore((s) => s.isAuthenticated);
-  return isAuthenticated ? <>{children}</> : <Navigate to="/login" replace />;
-}
+import DashboardLayout from './components/layout/dashboard-layout';
+import LoginPage from './pages/login-page';
+import EventsPage from './pages/events-page';
+import UsersPage from './pages/users-page';
+import ReviewsPage from './pages/reviews-page';
+import AnalyticsPage from './pages/analytics-page';
+import ProtectedRoute from './components/layout/protected-route';
 
 export default function App() {
   const isAuthenticated = useAuthStore((s) => s.isAuthenticated);
