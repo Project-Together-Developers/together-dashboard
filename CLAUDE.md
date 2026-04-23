@@ -20,3 +20,4 @@ For API conventions, read `docs/api.md`
 For state management guidelines, read `docs/state-management.md`
 For routing and auth guard, read `docs/routing-and-auth.md`
 For i18n guidelines, read `docs/i18n.md`
+For project rules, read `docs/project-rules.md`
