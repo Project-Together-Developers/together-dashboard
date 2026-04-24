@@ -27,7 +27,8 @@
     "users": "Пользователи",
     "reviews": "Отзывы",
     "analytics": "Аналитика",
-    "settings": "Настройки"
+    "settings": "Настройки",
+    "activities": "Активности"
   },
   "events": {
     "title": "События",
@@ -36,7 +37,18 @@
     "location": "Место",
     "date": "Дата",
     "participants": "Участники",
-    "status": "Статус"
+    "status": "Статус",
+    "subtitle": "Проверка и подтверждение событий",
+    "difficulty": "Сложность",
+    "statusAll": "Все",
+    "statusPending": "На рассмотрении",
+    "statusApproved": "Одобрено",
+    "statusRejected": "Отклонено",
+    "status_pending": "На рассмотрении",
+    "status_approved": "Одобрено",
+    "status_rejected": "Отклонено",
+    "approve": "Одобрить",
+    "reject": "Отклонить"
   },
   "users": {
     "title": "Пользователи",
@@ -60,5 +72,22 @@
     "totalEvents": "Всего событий",
     "activeEvents": "Активные события",
     "newUsersThisMonth": "Новые пользователи (30д)"
+  },
+  "activities": {
+    "title": "Активности",
+    "subtitle": "Управление типами активностей для событий",
+    "create": "Новая активность",
+    "edit": "Редактировать",
+    "name": "Название",
+    "namePlaceholder": "например, Поход",
+    "iconUrl": "URL иконки (SVG)",
+    "icon": "Иконка",
+    "status": "Статус",
+    "active": "Активна",
+    "inactive": "Неактивна",
+    "nameRequired": "Название обязательно",
+    "iconRequired": "URL иконки обязателен",
+    "deleteTitle": "Удалить активность",
+    "deleteConfirm": "Вы уверены, что хотите удалить «{{name}}»?"
   }
 }

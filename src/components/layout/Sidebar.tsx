@@ -9,12 +9,14 @@ import {
   BarChart3,
   LogOut,
   Mountain,
+  Dumbbell,
 } from 'lucide-react';
 import { useAuthStore } from '@/store/auth';
 import { Button } from '@/components/ui/button';
 
 const navItems = [
   { to: '/events', labelKey: 'nav.events', Icon: CalendarDays },
+  { to: '/activities', labelKey: 'nav.activities', Icon: Dumbbell },
   { to: '/users', labelKey: 'nav.users', Icon: Users },
   { to: '/reviews', labelKey: 'nav.reviews', Icon: Star },
   { to: '/analytics', labelKey: 'nav.analytics', Icon: BarChart3 },

@@ -4,6 +4,7 @@ import { useAuthStore } from './store/auth';
 import DashboardLayout from './components/layout/dashboard-layout';
 import LoginPage from './pages/login-page';
 import EventsPage from './pages/events-page';
+import ActivitiesPage from './pages/activities-page';
 import UsersPage from './pages/users-page';
 import ReviewsPage from './pages/reviews-page';
 import AnalyticsPage from './pages/analytics-page';
@@ -29,6 +30,7 @@ export default function App() {
         >
           <Route index element={<Navigate to="/events" replace />} />
           <Route path="events" element={<EventsPage />} />
+          <Route path="activities" element={<ActivitiesPage />} />
           <Route path="users" element={<UsersPage />} />
           <Route path="reviews" element={<ReviewsPage />} />
           <Route path="analytics" element={<AnalyticsPage />} />

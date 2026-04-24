@@ -55,6 +55,12 @@ export default {
           light: '#D9956A',
           dark: '#9A5F2E',
         },
+        success: {
+          DEFAULT: '#2E8B68',
+        },
+        warning: {
+          DEFAULT: '#D68B20',
+        },
       },
       borderRadius: {
         lg: 'var(--radius)',

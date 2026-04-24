@@ -27,7 +27,8 @@
     "users": "Users",
     "reviews": "Reviews",
     "analytics": "Analytics",
-    "settings": "Settings"
+    "settings": "Settings",
+    "activities": "Activities"
   },
   "events": {
     "title": "Events",
@@ -36,7 +37,18 @@
     "location": "Location",
     "date": "Date",
     "participants": "Participants",
-    "status": "Status"
+    "status": "Status",
+    "subtitle": "Review and approve activity events",
+    "difficulty": "Difficulty",
+    "statusAll": "All",
+    "statusPending": "Pending",
+    "statusApproved": "Approved",
+    "statusRejected": "Rejected",
+    "status_pending": "Pending",
+    "status_approved": "Approved",
+    "status_rejected": "Rejected",
+    "approve": "Approve",
+    "reject": "Reject"
   },
   "users": {
     "title": "Users",
@@ -60,5 +72,22 @@
     "totalEvents": "Total Events",
     "activeEvents": "Active Events",
     "newUsersThisMonth": "New Users (30d)"
+  },
+  "activities": {
+    "title": "Activities",
+    "subtitle": "Manage activity types for events",
+    "create": "New Activity",
+    "edit": "Edit Activity",
+    "name": "Name",
+    "namePlaceholder": "e.g. Hiking",
+    "iconUrl": "Icon URL (SVG)",
+    "icon": "Icon",
+    "status": "Status",
+    "active": "Active",
+    "inactive": "Inactive",
+    "nameRequired": "Name is required",
+    "iconRequired": "Icon URL is required",
+    "deleteTitle": "Delete Activity",
+    "deleteConfirm": "Are you sure you want to delete \"{{name}}\"?"
   }
 }

@@ -27,7 +27,8 @@
     "users": "Foydalanuvchilar",
     "reviews": "Sharhlar",
     "analytics": "Tahlil",
-    "settings": "Sozlamalar"
+    "settings": "Sozlamalar",
+    "activities": "Faoliyatlar"
   },
   "events": {
     "title": "Tadbirlar",
@@ -36,7 +37,18 @@
     "location": "Joy",
     "date": "Sana",
     "participants": "Ishtirokchilar",
-    "status": "Holat"
+    "status": "Holat",
+    "subtitle": "Tadbirlarni ko'rib chiqish va tasdiqlash",
+    "difficulty": "Murakkablik",
+    "statusAll": "Barchasi",
+    "statusPending": "Kutilmoqda",
+    "statusApproved": "Tasdiqlangan",
+    "statusRejected": "Rad etilgan",
+    "status_pending": "Kutilmoqda",
+    "status_approved": "Tasdiqlangan",
+    "status_rejected": "Rad etilgan",
+    "approve": "Tasdiqlash",
+    "reject": "Rad etish"
   },
   "users": {
     "title": "Foydalanuvchilar",
@@ -60,5 +72,22 @@
     "totalEvents": "Jami tadbirlar",
     "activeEvents": "Faol tadbirlar",
     "newUsersThisMonth": "Yangi foydalanuvchilar (30k)"
+  },
+  "activities": {
+    "title": "Faoliyatlar",
+    "subtitle": "Tadbirlar uchun faoliyat turlarini boshqarish",
+    "create": "Yangi faoliyat",
+    "edit": "Tahrirlash",
+    "name": "Nomi",
+    "namePlaceholder": "masalan, Piyoda sayr",
+    "iconUrl": "Ikonka URL (SVG)",
+    "icon": "Ikonka",
+    "status": "Holat",
+    "active": "Faol",
+    "inactive": "Nofaol",
+    "nameRequired": "Nom kiritilishi shart",
+    "iconRequired": "Ikonka URL kiritilishi shart",
+    "deleteTitle": "Faoliyatni oʻchirish",
+    "deleteConfirm": "\"{{name}}\" ni oʻchirishga ishonchingiz komilmi?"
   }
 }
